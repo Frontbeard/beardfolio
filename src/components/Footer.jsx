@@ -1,4 +1,4 @@
-import { FaXTwitter, FaInstagram, FaDribbble, FaGithub, FaLinkedinIn } from "react-icons/fa6";
+import { FaInstagram, FaDribbble, FaGithub, FaLinkedinIn } from "react-icons/fa6";
 import configData from "../data/config.json";
 
 export default function Footer() {
@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="flex gap-x-2 mb-4">
           {socialLinks.map((socialLink, index) => {
             const iconMap = {
-              FaXTwitter,
+
               FaInstagram,
               FaDribbble,
               FaGithub,

@@ -11,13 +11,19 @@
       "project-image-url": "https://i.imgur.com/mNJWZSg.png",
       "project-name": "Beardfolio",
       "project-desc": "React + Tailwind Portfolio"
+    },
+    {
+      "project-image-url": "https://i.imgur.com/mNJWZSg.png",
+      "project-name": "Beardfolio",
+      "project-desc": "React + Tailwind Portfolio"
+    },
+    {
+      "project-image-url": "https://i.imgur.com/mNJWZSg.png",
+      "project-name": "Beardfolio",
+      "project-desc": "React + Tailwind Portfolio"
     }
   ],
   "social": [
-    {
-      "icon": "FaXTwitter",
-      "link": "https://x.com"
-    },
     {
       "icon": "FaInstagram",
       "link": "https://www.instagram.com/lufbenitez/"
