@@ -1,26 +1,29 @@
 {
-  "job": "Fullstack Developer",
+  "job": "Frontend Developer",
   "name": "Lucas Benitez",
-  "desc": "With my robust beard, I create the best digital solutions and experiences where design meets code.",
-  "aboutDesc": "A passionate fullstack developer with a focus on creating innovative and seamless user experiences.",
+  "desc": "With my robust beard and a love for innovation, I build digital solutions that blend design and functionality flawlessly.",
+  "aboutDesc": "A passionate frontend developer with a focus on creating innovative and seamless user experiences.",
   "email": "lufbenitez@gmail.com",
   "status": "on",
   "hireMeLink": "https://www.linkedin.com/in/frontbeard/",
   "projects": [
     {
-      "project-image-url": "https://i.imgur.com/mNJWZSg.png",
-      "project-name": "Beardfolio",
-      "project-desc": "React + Tailwind Portfolio"
+      "project-name": "Challenge Chat MERN",
+      "project-desc": "Real-time Chat App",
+      "project-image-url": "https://i.imgur.com/LoGPWko.png",
+      "project-link": "https://github.com/Frontbeard/challenge-mern-chat-tailwindcss"
     },
     {
-      "project-image-url": "https://i.imgur.com/mNJWZSg.png",
-      "project-name": "Beardfolio",
-      "project-desc": "React + Tailwind Portfolio"
+      "project-name": "Countries SPA",
+      "project-desc": "Interactive Countries Info",
+      "project-image-url": "https://i.imgur.com/lyYkxpH.png",
+      "project-link": "https://github.com/Frontbeard/PI-Countries"
     },
     {
-      "project-image-url": "https://i.imgur.com/mNJWZSg.png",
-      "project-name": "Beardfolio",
-      "project-desc": "React + Tailwind Portfolio"
+      "project-name": "Pink Panther",
+      "project-desc": "E-commerce with React",
+      "project-image-url": "https://i.imgur.com/YvJep04.png",
+      "project-link": "https://github.com/Frontbeard/pinkpantherfront"
     }
   ],
   "social": [
