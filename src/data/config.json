@@ -2,13 +2,13 @@
   "job": "Frontend Developer",
   "name": "Lucas Benitez",
   "desc": "With my robust beard, I create the best digital solutions and experiences where design meets code.",
-  "aboutDesc": "Fullstack Developer with more than a year of experience using key technologies for web development, such as JavaScript, React, Redux, GraphQL (Apollo Client), Material-UI, Node.js, Express, Socket.IO and UUID. I also handle databases such as DynamoDB, Sequelize and Mongoose, and I have experience with cloud services such as AWS, Heroku, S3 Server and Cloudinary. My work is complemented with knowledge in CMS like WordPress, design tools like Figma and Balsamiq, and agile methodologies like Scrum.",
+  "aboutDesc": "A passionate fullstack developer with a focus on creating innovative and seamless user experiences.",
   "email": "lufbenitez@gmail.com",
   "status": "on",
   "hireMeLink": "https://www.linkedin.com/in/frontbeard/",
   "projects": [
     {
-      "project-image-url": "https://www.ociocaballo.com/wp-content/uploads/2020/05/articulo_055.jpg",
+      "project-image-url": "https://i.imgur.com/mNJWZSg.png",
       "project-name": "Beardfolio",
       "project-desc": "React + Tailwind Portfolio"
     }

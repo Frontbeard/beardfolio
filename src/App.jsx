@@ -1,15 +1,13 @@
 import "./App.css";
-import Profile from "./components/Profile";
+import Profile from "./components/Profile"; 
 import Projects from "./components/Projects";
 import Navbar from "./components/Navbar";
 import { getConfigData } from "./data/configReader";
-import Social from "./components/Social";
 import Footer from "./components/Footer";
 import SiteRoutes from "./routes/SiteRoutes";
 
 function App() {
   const configData = getConfigData();
-
   return (
     <>
       <Navbar />
@@ -21,7 +19,6 @@ function App() {
               <SiteRoutes />
 
               
-              <Social />
               <Footer />
             </div>
           </div>
