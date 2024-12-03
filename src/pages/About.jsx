@@ -1,7 +1,8 @@
 import profile from "../assets/profile.png";
 import CopyEmailButton from "../components/CopyEmailButton";
 import { getConfigData } from "../data/configReader";
-import TechCarrusel from "../components/TechCarrusel"; // Importamos TechCarrusel
+import TechCarrusel from "../components/TechCarrusel";
+import profileImage from "../assets/source.svg";
 
 export default function About() {
   const configData = getConfigData();
@@ -20,7 +21,7 @@ export default function About() {
           </h1>
           <img
             className="w-64 h-64 border rounded-full p-3 shadow-md object-cover mx-auto"
-            src="../assets/source.svg"
+            src={profileImage}
             alt="Profile"
           />
           <p className="text-lg text-gray-500 text-center md:text-justify font-normal tracking-tight">
@@ -28,13 +29,26 @@ export default function About() {
           </p>
           <div className="text-center md:text-justify text-gray-600">
             <p className="text-lg font-normal">
-            I firmly believe that a good user experience is essential for the success of any product, which is why I constantly strive to improve and perfect my skills in this area. That's why I love designing and developing frontend components, always prioritizing design and usability to create attractive and intuitive interfaces.
+              I firmly believe that a good user experience is essential for the
+              success of any product, which is why I constantly strive to
+              improve and perfect my skills in this area. That's why I love
+              designing and developing frontend components, always prioritizing
+              design and usability to create attractive and intuitive
+              interfaces.
             </p>
             <p className="text-lg font-normal mt-2">
-            In my free time, I enjoy studying new trends in technology and UX/UI design, or even relaxing with video games, which allow me to foster my creativity and stay up to date with strategic thinking.
+              In my free time, I enjoy studying new trends in technology and
+              UX/UI design, or even relaxing with video games, which allow me to
+              foster my creativity and stay up to date with strategic thinking.
             </p>
             <p className="text-lg font-normal mt-3">
-            I have had the opportunity to collaborate with multicultural teams from countries such as Colombia, the Dominican Republic, and Paraguay, which has enriched my growth both professionally and personally. I really enjoy learning from different perspectives and working on exciting projects that bring real value. If you're interested in connecting or collaborating on projects, feel free to reach out to me.
+              I have had the opportunity to collaborate with multicultural teams
+              from countries such as Colombia, the Dominican Republic, and
+              Paraguay, which has enriched my growth both professionally and
+              personally. I really enjoy learning from different perspectives
+              and working on exciting projects that bring real value. If you're
+              interested in connecting or collaborating on projects, feel free
+              to reach out to me.
             </p>
           </div>
         </div>
@@ -46,7 +60,7 @@ export default function About() {
       <div className="flex flex-col items-center justify-center">
         <h1 className="text-3xl font-semibold">Let's work together.</h1>
         <p className="text-md font-normal text-gray-500 text-center px-3">
-        Check my resume below
+          Check my resume below
         </p>
       </div>
       <div className="flex flex-col flex-col-reverse md:flex md:flex-row md:items-center justify-center py-8">
