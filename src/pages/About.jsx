@@ -2,7 +2,7 @@ import profile from "../assets/profile.png";
 import CopyEmailButton from "../components/CopyEmailButton";
 import { getConfigData } from "../data/configReader";
 import TechCarrusel from "../components/TechCarrusel";
-import profileImage from "../assets/source.svg";
+import profileImage from "../assets/source.jpg";
 
 export default function About() {
   const configData = getConfigData();
