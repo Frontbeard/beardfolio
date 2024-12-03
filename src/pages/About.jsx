@@ -20,7 +20,7 @@ export default function About() {
           </h1>
           <img
             className="w-64 h-64 border rounded-full p-3 shadow-md object-cover mx-auto"
-            src="../assets/source.jpg"
+            src="../assets/source.svg"
             alt="Profile"
           />
           <p className="text-lg text-gray-500 text-center md:text-justify font-normal tracking-tight">
