@@ -3,6 +3,13 @@ import { useState } from "react";
 export default function Home() {
   const [projects] = useState([
     {
+      "project-name": "Leo Rodriguez Studio",
+      "project-desc":
+        "Official site of Leo Rodriguez: journey, achievements, and collaborations.",
+      "project-image-url": "https://leorodriguez.com.ar/wp-content/uploads/2024/01/cropped-logo-leo-rodriguez-final-2-300x187.png",
+      "project-link": "https://leorodriguez.com.ar",
+    },    
+    {
       "project-name": "Pink Panther",
       "project-desc":
         "Online store development with user authentication, payment gateway, product filters, and image management.",
