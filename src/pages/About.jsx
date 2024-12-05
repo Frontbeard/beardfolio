@@ -2,6 +2,7 @@ import { getConfigData } from "../data/configReader";
 import TechCarrusel from "../components/TechCarrusel";
 import { HiOutlineDocumentText } from "react-icons/hi";
 import profileImage from "../assets/source.jpg";
+import resume from "../assets/CV-Lucas Benitez.pdf";
 
 export default function About() {
   const configData = getConfigData();
@@ -66,9 +67,8 @@ export default function About() {
         <div className="flex flex-col gap-y-2">
           <div className="flex items-center text-center md:text-justify justify-center md:justify-normal">
             <a
-              href="https://drive.google.com/file/d/1r43_JiPJ-Z-VdlDgockDWA8uCrOYSIsg/view?usp=drive_link"
-              target="_blank"
-              rel="noopener noreferrer"
+              href={resume}
+              download="CV-LucasBenitez.pdf"
             >
               <button
                 type="button"

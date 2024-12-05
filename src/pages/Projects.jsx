@@ -4,40 +4,48 @@ export default function Home() {
   const [projects] = useState([
     {
       "project-name": "Pink Panther",
-      "project-desc": "Online store development with user authentication, payment gateway, product filters, and image management.",
+      "project-desc":
+        "Online store development with user authentication, payment gateway, product filters, and image management.",
       "project-image-url": "https://i.imgur.com/YvJep04.png",
-      "project-link": "https://github.com/Frontbeard/pinkpantherfront"
+      "project-link": "https://github.com/Frontbeard/pinkpantherfront",
     },
     {
       "project-name": "Calculator",
-      "project-desc": "Online tool for basic mathematical calculations, designed to practice and improve technical skills.",
+      "project-desc":
+        "Online tool for basic mathematical calculations, designed to practice and improve technical skills.",
       "project-image-url": "https://i.imgur.com/2ADGpI6.png",
-      "project-link": "https://github.com/Frontbeard/calculator"
+      "project-link": "https://github.com/Frontbeard/calculator",
     },
     {
       "project-name": "Challenge Chat MERN",
-      "project-desc": "Real-time chat with React, multi-user, responsive, no email registration. Functional, intuitive, stylish, and with a database.",
+      "project-desc":
+        "Real-time chat with React, multi-user, responsive, no email registration. Functional, intuitive, stylish, and with a database.",
       "project-image-url": "https://i.imgur.com/LoGPWko.png",
-      "project-link": "https://github.com/Frontbeard/challenge-mern-chat-tailwindcss"
+      "project-link":
+        "https://github.com/Frontbeard/challenge-mern-chat-tailwindcss",
     },
     {
       "project-name": "Individual project: Countries",
-      "project-desc": "SPA with React, Redux, Node, Express, and Sequelize to search, filter, sort countries, and create tourist activities. Local database and JavaScript validations.",
+      "project-desc":
+        "SPA with React, Redux, Node, Express, and Sequelize to search, filter, sort countries, and create tourist activities. Local database and JavaScript validations.",
       "project-image-url": "https://i.imgur.com/lyYkxpH.png",
-      "project-link": "https://github.com/Frontbeard/PI-Countries"
+      "project-link": "https://github.com/Frontbeard/PI-Countries",
     },
     {
       "project-name": "Beardfolio",
-      "project-desc": "A great portfolio is like a well-groomed beard, essential for making a lasting impression!",
+      "project-desc":
+        "A great portfolio is like a well-groomed beard, essential for making a lasting impression!",
       "project-image-url": "https://i.imgur.com/mNJWZSg.png",
-      "project-link": "https://github.com/Frontbeard/beardfolio"
-    }
+      "project-link": "https://github.com/Frontbeard/beardfolio",
+    },
   ]);
 
   const [isHovered, setIsHovered] = useState(false);
   const handleMouseEnter = () => setIsHovered(true);
   const handleMouseLeave = () => setIsHovered(false);
-  const svgClass = isHovered ? "w-6 h-6 text-gray-500 transition delay-150" : "w-6 h-6 text-gray-300";
+  const svgClass = isHovered
+    ? "w-6 h-6 text-gray-500 transition delay-150"
+    : "w-6 h-6 text-gray-300";
 
   return (
     <div className="px-7 py-7">
@@ -54,6 +62,8 @@ export default function Home() {
             onMouseLeave={handleMouseLeave}
             className="drop-shadow-md card bg-white rounded-lg px-5 py-3 hover:-translate-y-1 hover:scale-100 duration-300 transition ease-in-out delay-150 hover:shadow-sm border border-gray-200 hover:border-gray-300 flex flex-col sm:flex-row"
             href={project["project-link"]}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <div className="flex sm:block sm:w-16 sm:h-16 sm:mr-4">
               <div className="rounded-full overflow-hidden w-16 h-16 mx-auto sm:mx-0 border border-gray-200">
