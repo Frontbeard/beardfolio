@@ -14,20 +14,20 @@ export default function About() {
           About
         </h1>
       </div>
-      <div className="px-7 py-7 flex flex-col flex-col-reverse md:flex md:flex-row md:items-center md:justify-between pt-3">
+      <div className="px-7 py-7 flex flex-col flex-col-reverse md:flex md:flex-row md:items-center pt-3">
         <div className="flex flex-col gap-y-4">
-          <h1 className="text-4xl md:text-4xl font-semibold text-center md:text-justify tracking-tighter">
+          <h1 className="text-4xl md:text-4xl font-semibold tracking-tighter">
             Hi, I'm Lucas
           </h1>
+          <p className="text-lg text-gray-500 font-normal tracking-tight">
+            {configData.aboutDesc}
+          </p>
           <img
             className="w-64 h-64 border rounded-full p-3 shadow-md object-cover mx-auto"
             src={profileImage}
             alt="Profile"
           />
-          <p className="text-lg text-gray-500 text-center md:text-justify font-normal tracking-tight">
-            {configData.aboutDesc}
-          </p>
-          <div className="text-center md:text-justify text-gray-600">
+          <div className="text-gray-600">
             <p className="text-lg font-normal">
               I firmly believe that a good user experience is essential for the
               success of any product, which is why I constantly strive to

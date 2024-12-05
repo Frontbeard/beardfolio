@@ -57,9 +57,9 @@ export default function Card() {
               key={index}
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
-              href={project["project-link"]} // Se asigna el link al repositorio
-              target="_blank" // Abre en una nueva pestaña
-              rel="noopener noreferrer" // Mejora seguridad al abrir en una nueva pestaña
+              href={project["project-link"]}
+              target="_blank" 
+              rel="noopener noreferrer" 
               className="drop-shadow-md card bg-white rounded-lg px-5 py-3 gap-x-3 flex flex-col md:flex-none md:flex-row hover:-translate-y-1 hover:scale-100 duration-300 transition ease-in-out delay-150 hover:shadow-sm border border-gray-200 hover:border-gray-300"
             >
               <div className="rounded-full overflow-hidden flex items-center justify-center border border-gray-200 hidden md:block">

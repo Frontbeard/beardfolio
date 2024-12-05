@@ -34,7 +34,7 @@ export default function Profile() {
           <h1 className="text-4xl md:text-4xl font-semibold text-center md:text-justify tracking-tighter">
             Welcome, there!
           </h1>
-          <p className="md:w-3/4 text-lg text-gray-500 text-center md:text-justify font-normal tracking-tigh">
+          <p className="md:w-3/4 text-lg text-gray-500 font-normal tracking-tigh">
             {configData.desc}
           </p>
           <div className="flex items-center text-center md:text-justify justify-center md:justify-normal pt-6">
